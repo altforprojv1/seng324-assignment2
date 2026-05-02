@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.seng324.AccountValidatorTest" time="0.173" tests="44" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="25"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1254"/>
+    <property name="java.class.path" value="C:\Users\Admin\Desktop\seng324-assignment2\target\test-classes;C:\Users\Admin\Desktop\seng324-assignment2\target\classes;C:\Users\Admin\.m2\repository\org\junit\jupiter\junit-jupiter\6.1.0-RC1\junit-jupiter-6.1.0-RC1.jar;C:\Users\Admin\.m2\repository\org\junit\jupiter\junit-jupiter-api\6.1.0-RC1\junit-jupiter-api-6.1.0-RC1.jar;C:\Users\Admin\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Admin\.m2\repository\org\junit\platform\junit-platform-commons\6.1.0-RC1\junit-platform-commons-6.1.0-RC1.jar;C:\Users\Admin\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Admin\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Admin\.m2\repository\org\junit\jupiter\junit-jupiter-params\6.1.0-RC1\junit-jupiter-params-6.1.0-RC1.jar;C:\Users\Admin\.m2\repository\org\junit\jupiter\junit-jupiter-engine\6.1.0-RC1\junit-jupiter-engine-6.1.0-RC1.jar;C:\Users\Admin\.m2\repository\org\junit\platform\junit-platform-engine\6.1.0-RC1\junit-platform-engine-6.1.0-RC1.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Europe/Istanbul"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="25"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="TR"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-25.0.3.9-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\Admin\AppData\Local\Temp\surefire8402950048793603975\surefirebooter-20260502220146720_3.jar C:\Users\Admin\AppData\Local\Temp\surefire8402950048793603975 2026-05-02T22-01-46_645-jvmRun1 surefire-20260502220146720_1tmp surefire_0-20260502220146720_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Admin\Desktop\seng324-assignment2\target\test-classes;C:\Users\Admin\Desktop\seng324-assignment2\target\classes;C:\Users\Admin\.m2\repository\org\junit\jupiter\junit-jupiter\6.1.0-RC1\junit-jupiter-6.1.0-RC1.jar;C:\Users\Admin\.m2\repository\org\junit\jupiter\junit-jupiter-api\6.1.0-RC1\junit-jupiter-api-6.1.0-RC1.jar;C:\Users\Admin\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Admin\.m2\repository\org\junit\platform\junit-platform-commons\6.1.0-RC1\junit-platform-commons-6.1.0-RC1.jar;C:\Users\Admin\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Admin\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Admin\.m2\repository\org\junit\jupiter\junit-jupiter-params\6.1.0-RC1\junit-jupiter-params-6.1.0-RC1.jar;C:\Users\Admin\.m2\repository\org\junit\jupiter\junit-jupiter-engine\6.1.0-RC1\junit-jupiter-engine-6.1.0-RC1.jar;C:\Users\Admin\.m2\repository\org\junit\platform\junit-platform-engine\6.1.0-RC1\junit-platform-engine-6.1.0-RC1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Admin"/>
+    <property name="user.language" value="tr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-04-21"/>
+    <property name="java.home" value="C:\Program Files\Eclipse Adoptium\jdk-25.0.3.9-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Admin\Desktop\seng324-assignment2"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Admin\AppData\Local\Temp\surefire8402950048793603975\surefirebooter-20260502220146720_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="25.0.3+9-LTS"/>
+    <property name="user.name" value="Admin"/>
+    <property name="stdout.encoding" value="Cp1254"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-25.0.3+9"/>
+    <property name="localRepository" value="C:\Users\Admin\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\Admin\AppData\Local\Temp\"/>
+    <property name="java.version" value="25.0.3"/>
+    <property name="user.dir" value="C:\Users\Admin\Desktop\seng324-assignment2"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1254"/>
+    <property name="java.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-25.0.3.9-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\Admin\AppData\Local\Programs\Microsoft VS Code;C:\Program Files\Eclipse Adoptium\jdk-25.0.3.9-hotspot\bin;C:\Python314\Scripts\;C:\Python314\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\Cloudflare\Cloudflare WARP\;C:\Program Files\Maven\apache-maven-3.9.15\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;C:\Users\Admin\AppData\Roaming\npm;C:\Users\Admin\AppData\Local\Programs\Microsoft VS Code\bin;c:\Users\Admin\.vscode\extensions\vscjava.vscode-java-debug-0.59.0\bundled\scripts\noConfigScripts;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1254"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="25.0.3+9-LTS"/>
+    <property name="stdin.encoding" value="Cp1254"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="69.0"/>
+  </properties>
+  <testcase name="tc01_validFirstName" classname="com.seng324.AccountValidatorTest" time="0.03">
+    <system-out><![CDATA[=== AccountValidator Test Suite Started ===
+Running: TC01 - Valid first name returns true (EP: valid partition)
+Completed: TC01 - Valid first name returns true (EP: valid partition)
+]]></system-out>
+  </testcase>
+  <testcase name="tc02_emptyFirstName" classname="com.seng324.AccountValidatorTest" time="0.002">
+    <system-out><![CDATA[Running: TC02 - Empty first name returns false (EP: invalid partition)
+Completed: TC02 - Empty first name returns false (EP: invalid partition)
+]]></system-out>
+  </testcase>
+  <testcase name="tc03_firstNameWithDigits" classname="com.seng324.AccountValidatorTest" time="0.001">
+    <system-out><![CDATA[Running: TC03 - First name with digits returns false (EP: invalid partition)
+Completed: TC03 - First name with digits returns false (EP: invalid partition)
+]]></system-out>
+  </testcase>
+  <testcase name="tc04_firstNameMinBoundary" classname="com.seng324.AccountValidatorTest" time="0.001">
+    <system-out><![CDATA[Running: TC04 - First name of 1 character returns true (BVA: min boundary)
+Completed: TC04 - First name of 1 character returns true (BVA: min boundary)
+]]></system-out>
+  </testcase>
+  <testcase name="tc05_firstNameMaxBoundary" classname="com.seng324.AccountValidatorTest" time="0.003">
+    <system-out><![CDATA[Running: TC05 - First name of 50 characters returns true (BVA: max boundary)
+Completed: TC05 - First name of 50 characters returns true (BVA: max boundary)
+]]></system-out>
+  </testcase>
+  <testcase name="tc06_firstNameAboveMax" classname="com.seng324.AccountValidatorTest" time="0.001">
+    <system-out><![CDATA[Running: TC06 - First name of 51 characters returns false (BVA: above max)
+Completed: TC06 - First name of 51 characters returns false (BVA: above max)
+]]></system-out>
+  </testcase>
+  <testcase name="tc07_firstNameXssPayload" classname="com.seng324.AccountValidatorTest" time="0.001">
+    <system-out><![CDATA[Running: TC07 - First name with XSS payload returns false (Robustness)
+Completed: TC07 - First name with XSS payload returns false (Robustness)
+]]></system-out>
+  </testcase>
+  <testcase name="tc08_nullFirstName" classname="com.seng324.AccountValidatorTest" time="0.001">
+    <system-out><![CDATA[Running: TC08 - Null first name returns false (Null input)
+Completed: TC08 - Null first name returns false (Null input)
+]]></system-out>
+  </testcase>
+  <testcase name="tc09_validLastName" classname="com.seng324.AccountValidatorTest" time="0.001">
+    <system-out><![CDATA[Running: TC09 - Valid last name returns true (EP: valid partition)
+Completed: TC09 - Valid last name returns true (EP: valid partition)
+]]></system-out>
+  </testcase>
+  <testcase name="tc10_emptyLastName" classname="com.seng324.AccountValidatorTest" time="0.002">
+    <system-out><![CDATA[Running: TC10 - Empty last name returns false (EP: invalid partition)
+Completed: TC10 - Empty last name returns false (EP: invalid partition)
+]]></system-out>
+  </testcase>
+  <testcase name="tc11_lastNameWithDigits" classname="com.seng324.AccountValidatorTest" time="0.002">
+    <system-out><![CDATA[Running: TC11 - Last name with digits returns false (EP: invalid partition)
+Completed: TC11 - Last name with digits returns false (EP: invalid partition)
+]]></system-out>
+  </testcase>
+  <testcase name="tc12_lastNameWithSpecialChars" classname="com.seng324.AccountValidatorTest" time="0.001">
+    <system-out><![CDATA[Running: TC12 - Last name with special characters returns false (EP: invalid partition)
+Completed: TC12 - Last name with special characters returns false (EP: invalid partition)
+]]></system-out>
+  </testcase>
+  <testcase name="tc13_lastNameMinBoundary" classname="com.seng324.AccountValidatorTest" time="0.001">
+    <system-out><![CDATA[Running: TC13 - Last name of 1 character returns true (BVA: min boundary)
+Completed: TC13 - Last name of 1 character returns true (BVA: min boundary)
+]]></system-out>
+  </testcase>
+  <testcase name="tc14_lastNameMaxBoundary" classname="com.seng324.AccountValidatorTest" time="0.002">
+    <system-out><![CDATA[Running: TC14 - Last name of 50 characters returns true (BVA: max boundary)
+Completed: TC14 - Last name of 50 characters returns true (BVA: max boundary)
+]]></system-out>
+  </testcase>
+  <testcase name="tc15_lastNameAboveMax" classname="com.seng324.AccountValidatorTest" time="0.001">
+    <system-out><![CDATA[Running: TC15 - Last name of 51 characters returns false (BVA: above max)
+Completed: TC15 - Last name of 51 characters returns false (BVA: above max)
+]]></system-out>
+  </testcase>
+  <testcase name="tc16_lastNameSqlInjection" classname="com.seng324.AccountValidatorTest" time="0.002">
+    <system-out><![CDATA[Running: TC16 - Last name with SQL injection payload returns false (Robustness)
+Completed: TC16 - Last name with SQL injection payload returns false (Robustness)
+]]></system-out>
+  </testcase>
+  <testcase name="tc17_nullLastName" classname="com.seng324.AccountValidatorTest" time="0.001">
+    <system-out><![CDATA[Running: TC17 - Null last name returns false (Null input)
+Completed: TC17 - Null last name returns false (Null input)
+]]></system-out>
+  </testcase>
+  <testcase name="tc18_validEmail" classname="com.seng324.AccountValidatorTest" time="0.002">
+    <system-out><![CDATA[Running: TC18 - Valid email returns true (EP: valid partition)
+Completed: TC18 - Valid email returns true (EP: valid partition)
+]]></system-out>
+  </testcase>
+  <testcase name="tc19_emailMissingAt" classname="com.seng324.AccountValidatorTest" time="0.003">
+    <system-out><![CDATA[Running: TC19 - Email missing @ returns false (EP: invalid partition)
+Completed: TC19 - Email missing @ returns false (EP: invalid partition)
+]]></system-out>
+  </testcase>
+  <testcase name="tc20_emptyEmail" classname="com.seng324.AccountValidatorTest" time="0.001">
+    <system-out><![CDATA[Running: TC20 - Empty email returns false (EP: invalid partition)
+Completed: TC20 - Empty email returns false (EP: invalid partition)
+]]></system-out>
+  </testcase>
+  <testcase name="tc21_emailMissingDomainExtension" classname="com.seng324.AccountValidatorTest" time="0.002">
+    <system-out><![CDATA[Running: TC21 - Email without domain extension returns false (EP: invalid partition)
+Completed: TC21 - Email without domain extension returns false (EP: invalid partition)
+]]></system-out>
+  </testcase>
+  <testcase name="tc22_emailMissingLocalPart" classname="com.seng324.AccountValidatorTest" time="0.003">
+    <system-out><![CDATA[Running: TC22 - Email without local part returns false (EP: invalid partition)
+Completed: TC22 - Email without local part returns false (EP: invalid partition)
+]]></system-out>
+  </testcase>
+  <testcase name="tc23_emailWithSpaces" classname="com.seng324.AccountValidatorTest" time="0.002">
+    <system-out><![CDATA[Running: TC23 - Email with spaces returns false (EP: invalid partition)
+Completed: TC23 - Email with spaces returns false (EP: invalid partition)
+]]></system-out>
+  </testcase>
+  <testcase name="tc24_nullEmail" classname="com.seng324.AccountValidatorTest" time="0.002">
+    <system-out><![CDATA[Running: TC24 - Null email returns false (Null input)
+Completed: TC24 - Null email returns false (Null input)
+]]></system-out>
+  </testcase>
+  <testcase name="tc25_validDob" classname="com.seng324.AccountValidatorTest" time="0.011">
+    <system-out><![CDATA[Running: TC25 - Valid date of birth returns true (EP: valid partition)
+Completed: TC25 - Valid date of birth returns true (EP: valid partition)
+]]></system-out>
+  </testcase>
+  <testcase name="tc26_dobWrongFormat" classname="com.seng324.AccountValidatorTest" time="0.001">
+    <system-out><![CDATA[Running: TC26 - DOB with wrong format returns false (EP: invalid partition)
+Completed: TC26 - DOB with wrong format returns false (EP: invalid partition)
+]]></system-out>
+  </testcase>
+  <testcase name="tc27_dobFutureYear" classname="com.seng324.AccountValidatorTest" time="0.002">
+    <system-out><![CDATA[Running: TC27 - DOB with future year returns false (EP + BVA: above boundary)
+Completed: TC27 - DOB with future year returns false (EP + BVA: above boundary)
+]]></system-out>
+  </testcase>
+  <testcase name="tc28_impossibleDate" classname="com.seng324.AccountValidatorTest" time="0.003">
+    <system-out><![CDATA[Running: TC28 - Impossible date (Feb 31st) returns false (EP: invalid partition)
+Completed: TC28 - Impossible date (Feb 31st) returns false (EP: invalid partition)
+]]></system-out>
+  </testcase>
+  <testcase name="tc29_dobToday" classname="com.seng324.AccountValidatorTest" time="0.002">
+    <system-out><![CDATA[Running: TC29 - DOB of today returns true (BVA: at upper boundary)
+Completed: TC29 - DOB of today returns true (BVA: at upper boundary)
+]]></system-out>
+  </testcase>
+  <testcase name="tc30_dobExactly120YearsAgo" classname="com.seng324.AccountValidatorTest" time="0.001">
+    <system-out><![CDATA[Running: TC30 - DOB exactly 120 years ago returns true (BVA: lower boundary)
+Completed: TC30 - DOB exactly 120 years ago returns true (BVA: lower boundary)
+]]></system-out>
+  </testcase>
+  <testcase name="tc31_dobOlderThan120Years" classname="com.seng324.AccountValidatorTest" time="0.002">
+    <system-out><![CDATA[Running: TC31 - DOB older than 120 years returns false (BVA: below lower boundary)
+Completed: TC31 - DOB older than 120 years returns false (BVA: below lower boundary)
+]]></system-out>
+  </testcase>
+  <testcase name="tc32_validPassword" classname="com.seng324.AccountValidatorTest" time="0.003">
+    <system-out><![CDATA[Running: TC32 - Valid password returns true (EP: valid partition)
+Completed: TC32 - Valid password returns true (EP: valid partition)
+]]></system-out>
+  </testcase>
+  <testcase name="tc33_passwordNoUppercase" classname="com.seng324.AccountValidatorTest" time="0.002">
+    <system-out><![CDATA[Running: TC33 - Password with no uppercase returns false (EP: invalid partition)
+Completed: TC33 - Password with no uppercase returns false (EP: invalid partition)
+]]></system-out>
+  </testcase>
+  <testcase name="tc34_passwordNoDigit" classname="com.seng324.AccountValidatorTest" time="0.003">
+    <system-out><![CDATA[Running: TC34 - Password without digit returns false (EP: invalid partition)
+Completed: TC34 - Password without digit returns false (EP: invalid partition)
+]]></system-out>
+  </testcase>
+  <testcase name="tc35_passwordNoSpecialChar" classname="com.seng324.AccountValidatorTest" time="0.001">
+    <system-out><![CDATA[Running: TC35 - Password with no special char returns false (EP: invalid partition)
+Completed: TC35 - Password with no special char returns false (EP: invalid partition)
+]]></system-out>
+  </testcase>
+  <testcase name="tc36_passwordBelowMin" classname="com.seng324.AccountValidatorTest" time="0.001">
+    <system-out><![CDATA[Running: TC36 - Password of 7 characters returns false (BVA: below min)
+Completed: TC36 - Password of 7 characters returns false (BVA: below min)
+]]></system-out>
+  </testcase>
+  <testcase name="tc37_passwordAtMin" classname="com.seng324.AccountValidatorTest" time="0.002">
+    <system-out><![CDATA[Running: TC37 - Password of exactly 8 characters returns true (BVA: at min)
+Completed: TC37 - Password of exactly 8 characters returns true (BVA: at min)
+]]></system-out>
+  </testcase>
+  <testcase name="tc38_passwordBelowMax" classname="com.seng324.AccountValidatorTest" time="0.001">
+    <system-out><![CDATA[Running: TC38 - Password of 63 characters returns true (BVA: below max)
+Completed: TC38 - Password of 63 characters returns true (BVA: below max)
+]]></system-out>
+  </testcase>
+  <testcase name="tc39_passwordAtMax" classname="com.seng324.AccountValidatorTest" time="0.001">
+    <system-out><![CDATA[Running: TC39 - Password of exactly 64 characters returns true (BVA: at max)
+Completed: TC39 - Password of exactly 64 characters returns true (BVA: at max)
+]]></system-out>
+  </testcase>
+  <testcase name="tc40_passwordAboveMax" classname="com.seng324.AccountValidatorTest" time="0.002">
+    <system-out><![CDATA[Running: TC40 - Password of 65 characters returns false (BVA: above max)
+Completed: TC40 - Password of 65 characters returns false (BVA: above max)
+]]></system-out>
+  </testcase>
+  <testcase name="tc41_confirmPasswordMatch" classname="com.seng324.AccountValidatorTest" time="0.001">
+    <system-out><![CDATA[Running: TC41 - Matching confirm password returns true (EP: valid partition)
+Completed: TC41 - Matching confirm password returns true (EP: valid partition)
+]]></system-out>
+  </testcase>
+  <testcase name="tc42_confirmPasswordMismatch" classname="com.seng324.AccountValidatorTest" time="0.002">
+    <system-out><![CDATA[Running: TC42 - Mismatched confirm password returns false (EP: invalid partition)
+Completed: TC42 - Mismatched confirm password returns false (EP: invalid partition)
+]]></system-out>
+  </testcase>
+  <testcase name="tc43_nullConfirmPassword" classname="com.seng324.AccountValidatorTest" time="0.002">
+    <system-out><![CDATA[Running: TC43 - Null confirm password returns false (Null input)
+Completed: TC43 - Null confirm password returns false (Null input)
+]]></system-out>
+  </testcase>
+  <testcase name="tc44_bothNullPasswords" classname="com.seng324.AccountValidatorTest" time="0.002">
+    <system-out><![CDATA[Running: TC44 - Both password and confirm password null returns false (Null input)
+Completed: TC44 - Both password and confirm password null returns false (Null input)
+]]></system-out>
+  </testcase>
+</testsuite>

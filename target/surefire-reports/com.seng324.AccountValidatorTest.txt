@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.seng324.AccountValidatorTest
+-------------------------------------------------------------------------------
+Tests run: 44, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.173 s -- in com.seng324.AccountValidatorTest
